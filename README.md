@@ -1,11 +1,19 @@
 # Fb-Brute-Hack
-Hacker
+Termux And kalilinux 
 
 Commands 
-pkg update
-pkg upgrade
-pkg install python
-pkg install python2
-pkg install git
-pip2 install requests
-pip2 install machanize
+
+
+ .  pkg update
+
+ .  pkg upgrade
+
+ .  pkg install python
+
+ .  pkg install python2
+
+ .  pkg install git
+
+ .  pip2 install requests
+
+ .  pip2 install machanize
