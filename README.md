@@ -22,4 +22,4 @@ Commands
   
  .  cd Fb-Brute-Hack
  
- .  attack.py
+ .  python2 attack.py
