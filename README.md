@@ -18,4 +18,4 @@ Commands
 
  .  pip2 install machanize
 
- .  Git clone https://github.com/Omarafghan/Fb-Brute-Hack
+ .  git clone https://github.com/Omarafghan/Fb-Brute-Hack
