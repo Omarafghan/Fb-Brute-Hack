@@ -1,5 +1,4 @@
 
-
 import time
 import os
 
@@ -13,10 +12,10 @@ except ModuleNotFoundError:
 os.system("clear")
 print """
 
-\033[1;97m           [🇦🇫\033[1;97mDevlup Shahid   🇦🇫\033[1;97m]
+\033[1;97m           [🇦🇫\033.  Devlup Shahid   🇦🇫\033[1;97m]
 \033[1;97m           [
 \033[1;97mYoutube: Technical Shahid 💎\033[1;97m]          
-\033[1;47m\033[1;35m          Enter Number/Gmail/Id                \033[1;0m
+\033[1;47m\033[1;35m          Afghan Hacker Tool               \033[1;0m
 """    
 time.sleep(0.5)
 user = raw_input('[+] Target Account/ID/Email : ')
