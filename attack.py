@@ -1,8 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-#Name:Zabi Obaidi
-#github (https://github.com/ZabiObaidi)
-#ZabiObaidi
+
 
 import time
 import os
