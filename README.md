@@ -21,5 +21,5 @@ Commands
  .  git clone https://github.com/Omarafghan/Fb-Brute-Hack
   
  .  cd afgbrute
+ 
  .  attack.py
- .  pass.txt
