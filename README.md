@@ -17,5 +17,5 @@ Commands
  .  pip2 install requests
 
  .  pip2 install machanize
- .  
+
  .  Git clone https://github.com/Omarafghan/Fb-Brute-Hack
