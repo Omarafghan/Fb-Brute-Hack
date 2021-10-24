@@ -20,6 +20,6 @@ Commands
 
  .  git clone https://github.com/Omarafghan/Fb-Brute-Hack
   
- .  cd afgbrute
+ .  cd Fb-Brute-Hack
  
  .  attack.py
