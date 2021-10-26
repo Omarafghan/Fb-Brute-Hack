@@ -10,7 +10,7 @@ except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
 os.system("clear")
-print "
+print"""
 ______________________________________________________ |
 |.            Name:  Shahidullah Taraki                                      |
 |.                       Friend.  Mjawad Akram.                             |
@@ -30,7 +30,7 @@ _______________________________________________________
 \033[1;97m           [
 \033[1;97m           [Youtube: Technical Shahid 💎\033[1;97m]          
 \033[1;47m\033[1;35m          Afghan Hacker Tool               \033[1;0m
-"""    
+"""
 time.sleep(0.5)
 user = raw_input('[+] Target Account/ID/Email : ')
 time.sleep(0.8)
