@@ -12,8 +12,11 @@ except ModuleNotFoundError:
 os.system("clear")
 print "
 ______________________________________________________ |
-|.            Name:  Shahidullah Taraki                                   |
-|.                       Friend.  Mjawad Akram.                       |
+|.            Name:  Shahidullah Taraki                                      |
+|.                       Friend.  Mjawad Akram.                             |
+|            . . . . . . Merways Safi                                              |              
+|             . . . . . . .  Gul sallam Kochi.                                   |
+|.                                      Suliman. Safi.                                   | 
 |.           ================================.                |
 |                         {     }               [  ]               {    }                         |
 |.                                                                                                 |
